@@ -1,18 +1,24 @@
-##LinkedIn Job Application Automation
+# LinkedIn Job Application Automation
 
 Automate the job application process on LinkedIn using Selenium. This tool logs in, searches for jobs with the "Easy Apply" feature, and submits applications for roles based on specified keywords and locations.
 
-Features
+# Features
+
 🔐 Automated Login: Logs into LinkedIn using your credentials securely.
 🔍 Job Search: Searches for jobs based on keywords and location.
 ⚡ Easy Apply Automation: Applies to jobs that support the "Easy Apply" feature.
 🌐 Pagination Support: Navigates through multiple job listing pages.
 🛠️ Error Handling: Manages modals, overlays, and other dynamic content.
-Technologies Used
+## Technologies Used
+
 Python: Core programming language.
+
 Selenium: For browser automation.
+
 ChromeDriver: Driver for interacting with the Chrome browser.
-Prerequisites
+
+## Prerequisites
+
 Ensure the following are installed and set up on your system:
 
 Python 3.x: Download Python
@@ -20,6 +26,7 @@ Google Chrome Browser: Download Chrome
 ChromeDriver:
 Download the driver matching your Chrome version from ChromeDriver Downloads.
 Place the chromedriver executable in the project directory.
+
 Install Selenium:
 bash
 Copy
@@ -80,7 +87,8 @@ Monitor the terminal for:
 
 Application progress.
 Any errors or skipped applications.
-Known Issues
+# Known Issues
+
 ⚠️ CAPTCHA
 LinkedIn may present a CAPTCHA challenge during login. Manual intervention is required to resolve this.
 🔄 Dynamic Content
@@ -90,9 +98,9 @@ Blocking modals, such as "Discard Confirmation," may prevent clicks. The script 
 Contributing
 Contributions are welcome! Feel free to fork the repository, create a feature branch, and submit a pull request.
 
-License
+# License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software as long as you include the original license.
 
-Disclaimer
+# Disclaimer
 This script is for educational purposes only.
 Using automation on LinkedIn may violate their Terms of Service. Proceed at your own risk.
