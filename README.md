@@ -1,4 +1,5 @@
-LinkedIn Job Application Automation
+##LinkedIn Job Application Automation
+
 Automate the job application process on LinkedIn using Selenium. This tool logs in, searches for jobs with the "Easy Apply" feature, and submits applications for roles based on specified keywords and locations.
 
 Features
